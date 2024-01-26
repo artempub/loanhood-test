@@ -1,12 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Listing from './pages/Listing';
+import { MOCK_PROJECTS } from './type/MockItems';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-200">
-      Hello world!
-    </h1>
+    <>
+    <Header />
+    <Listing projects={MOCK_PROJECTS} />
+    </>
   );
 }
 
