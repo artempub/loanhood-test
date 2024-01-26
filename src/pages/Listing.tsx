@@ -26,7 +26,7 @@ const Listing = () => {
                     limit: pageSize,
                 }
             });
-            if(data.page == data.totalPages) {
+            if (data.page == data.totalPages) {
                 setDisabled(true);
             }
             setPage(page + 1);
@@ -43,15 +43,17 @@ const Listing = () => {
     }, [])
 
     return (
-        <div className='flex flex-col justify-center items-center'>
-            <div className="flex flex-wrap justify-center items-center overflow-hidden">
-                {items.map((item: Item) => (
-                    <ItemCard item={item} key={item.id}></ItemCard>
-                ))}
+        <div className='flex flex-col items-center'>
+            <div className='flex flex-col justify-center items-center p-10'>
+                <div className="flex flex-wrap justify-center items-center overflow-hidden">
+                    {items.map((item: Item) => (
+                        <ItemCard item={item} key={item.id}></ItemCard>
+                    ))}
+                </div>
             </div>
-            <div className='m-10'>
+            <div className='m-auto'>
                 {!disabled && <button onClick={loadMore} className="flex-1 font-extrabold text-xl bg-[#e9f97a] border-2 border-black text-black px-6 py-3 ">
-                    {isLoading ? "Loading" :"Load More +"}
+                    {isLoading ? "Loading" : "Load More +"}
                 </button>}
             </div>
         </div>
