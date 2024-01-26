@@ -1,46 +1,60 @@
-# Getting Started with Create React App
+# LOANHOOD TEST PROJECT - FRONTEND
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React front-end test project that demonstrates fetching product data from an API and implementing a load-more feature.
 
-## Available Scripts
+## BACK END
 
-In the project directory, you can run:
+To clone Back-End, you need to switch the branch to the back-end with this command
+    
+    git checkout loanhood-be
 
-### `yarn start`
+
+
+
+### Front End Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/public-learner/loanhood-fe.git
+
+
+
+
+## 
+
+In the project directory, you can install modules through:
+
+    yarn install
+
+    yarn start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Then You will get this screen.
+![Alt text](image.png)
+![Alt text](image-1.png)
 
-### `yarn test`
+By Clikcing the button ``LoadMore``
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You will have `6` more products on your screen.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can `change the updated products count` by editing the varible ```pageSize```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`src` / `pages` / `Listing.tsx` 
 
-### `yarn eject`
+    const Listing = () => {
+        const pageSize = 6;
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+        const [page, setPage] = useState<number>(0);
+        const [items, setItems] = useState<Item[]>(new Array<Item>());
+        const [disabled, setDisabled] = useState<boolean>(false);
+        const [isLoading, setIsLoading] = useState<boolean>(false);
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## If you have any issues while running application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Feel free to contact me `artemivanchuk90@gmail.com`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
