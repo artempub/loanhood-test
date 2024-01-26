@@ -2,6 +2,10 @@
 
 This branch is a React front-end test project that demonstrates fetching product data from an API and implementing a load-more feature.
 
+    git clone -b frontend https://github.com/public-learner/loanhood-test.git
+
+
+
 ## To clone Backend
 To clone Back-End, you need to switch the branch to the back-end with this command
     
