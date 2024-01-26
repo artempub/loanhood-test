@@ -33,8 +33,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Then You will get this screen.
-![Alt text](image.png)
-![Alt text](image-1.png)
+
 
 By Clikcing the button ``LoadMore``
 
