@@ -1,4 +1,4 @@
-# LOANHOOD TEST PROJECT - FRONTEND
+# Loanhood test project - FRONTEND
 
 This project is a React front-end test project that demonstrates fetching product data from an API and implementing a load-more feature.
 
