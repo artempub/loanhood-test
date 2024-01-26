@@ -44,7 +44,7 @@ const Listing = () => {
 
     return (
         <div className='flex flex-col justify-center items-center'>
-            <div className="flex flex-wrap  items-center p-10">
+            <div className="flex flex-wrap justify-center items-center p-10">
                 {items.map((item: Item) => (
                     <ItemCard item={item} key={item.id}></ItemCard>
                 ))}
