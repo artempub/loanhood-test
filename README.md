@@ -1,8 +1,8 @@
-# Loanhood test project - FRONTEND
+# Loanhood test project  FRONTEND
 
 This branch is a React front-end test project that demonstrates fetching product data from an API and implementing a load-more feature.
 
-## To clone Back-End
+## To clone Backend
 To clone Back-End, you need to switch the branch to the back-end with this command
     
     git checkout loanhood-be
