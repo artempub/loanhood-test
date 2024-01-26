@@ -1,5 +1,5 @@
 
-# LOANHOOD TEST PROJECT - BACKEND
+# Loanhood test project - BACKEND
 
 A backend project for quickly building RESTful APIs using Node.js, Express, and Mongoose to provide Item service for React frontend.
 
