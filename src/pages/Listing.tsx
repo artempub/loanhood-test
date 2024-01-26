@@ -51,7 +51,7 @@ const Listing = () => {
                     ))}
                 </div>
             </div>
-            <div className='m-auto'>
+            <div className='m-auto mb-10'>
                 {!disabled && <button onClick={loadMore} className="flex-1 font-extrabold text-xl bg-[#e9f97a] border-2 border-black text-black px-6 py-3 ">
                     {isLoading ? "Loading" : "Load More +"}
                 </button>}
