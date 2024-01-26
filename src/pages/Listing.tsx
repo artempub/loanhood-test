@@ -10,7 +10,7 @@ import { Item } from "../type/ShopItem";
 import { api } from '../services/Api';
 
 const Listing = () => {
-    const pageSize = 3;
+    const pageSize = 10;
 
     const [page, setPage] = useState<number>(0);
     const [items, setItems] = useState<Item[]>(new Array<Item>());
