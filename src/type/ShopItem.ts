@@ -8,4 +8,5 @@ export interface Item {
     price: number;
     quantity_in_stock: number;
     size: string;
+    category: string;
 }

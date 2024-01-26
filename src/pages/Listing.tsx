@@ -26,7 +26,6 @@ const Listing = () => {
                     limit: pageSize,
                 }
             });
-
             if(data.page == data.totalPages) {
                 setDisabled(true);
             }
