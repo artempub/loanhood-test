@@ -4,6 +4,9 @@
 A backend project for quickly building RESTful APIs using Node.js, Express, and Mongoose to provide Item service for React frontend.
 
 
+    git clone -b backend https://github.com/public-learner/loanhood-test.git
+
+
 
 ## Commands
 Install dependencies:
