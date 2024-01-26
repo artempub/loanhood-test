@@ -2,7 +2,7 @@ const Footer: React.FC = () => {
 
     return (
         <>
-            <div className="w-full bottom-0 bg-[#e9f97a] border-b-2  border-t-2 border-black h-[100px] text-black flex items-center text-5xl font-bold shadow-sm p-5">
+            <div className="w-full bg-[#e9f97a] border-b-2  border-t-2 border-black h-[100px] text-black flex items-center text-5xl font-bold shadow-sm p-5">
                 LOANHOOD
             </div>
         </>

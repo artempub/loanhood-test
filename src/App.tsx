@@ -7,11 +7,11 @@ import Footer from './Layout/Footer';
 
 function App() {
   return (
-    <>
-    <Header />
-    <Listing/>
-    <Footer />
-    </>
+    <div>
+      <Header />
+      <Listing />
+      <Footer />
+    </div>
   );
 }
 

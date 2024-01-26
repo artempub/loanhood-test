@@ -16,7 +16,7 @@ const ItemCard: React.FC<ShopIteamCardProps> = ({ item }) => {
 
     return (
         <>
-            <div className="max-w-lg overflow-hidden  m-10 border-2 border-black hover:cursor-pointer hover:shadow-md hover:shadow-[#e9f97a] duration-150">
+            <div className="max-w-lg m-10 border-2 border-black hover:cursor-pointer hover:shadow-md hover:shadow-[#e9f97a] duration-150">
                 <img src={imgUrl} className="h-[300px] m-auto" alt={item.name} />
                 <div className="px-6 py-4">
                     <div className="flex justify-between">
