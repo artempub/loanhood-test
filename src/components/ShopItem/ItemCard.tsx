@@ -13,7 +13,7 @@ function formatDescription(description: string): string {
 const ItemCard: React.FC<ShopIteamCardProps> = ({ project }) => {
     return (
         <>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg m-5">
+            <div className="max-w-lg rounded overflow-hidden shadow-lg m-10">
                 <img src={project.imageUrl} alt={project.name} />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">{project.name}</div>

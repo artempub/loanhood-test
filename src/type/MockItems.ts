@@ -67,4 +67,26 @@ export const MOCK_PROJECTS = [
     budget: 53407,
     isActive: false,
   }),
+  new Project({
+    id: 7,
+    name: 'Lesch - Waelchi',
+    description:
+      'Profound mobile project. Rem consequatur laborum explicabo sint odit et illo voluptas expedita.',
+    imageUrl: '/assets/placeimg_500_300_arch7.jpg',
+    contractTypeId: 3,
+    contractSignedOn: '2016-09-23T21:27:25.035Z',
+    budget: 53407,
+    isActive: false,
+  }),
+  new Project({
+    id: 8,
+    name: 'Lesch - Waelchi',
+    description:
+      'Profound mobile project. Rem consequatur laborum explicabo sint odit et illo voluptas expedita.',
+    imageUrl: '/assets/placeimg_500_300_arch9.jpg',
+    contractTypeId: 3,
+    contractSignedOn: '2016-09-23T21:27:25.035Z',
+    budget: 53407,
+    isActive: false,
+  }),
 ];
